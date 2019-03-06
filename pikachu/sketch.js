@@ -321,7 +321,6 @@ function robberMoveManual() {
 		if(possibleMove(posRobber.x,posRobber.y,lastClick.x,lastClick.y)) {
 			posRobber.x = lastClick.x;
 			posRobber.y = lastClick.y;
-			turn++;
 			gameState = "copMove";
 		}
 		lastClick.x = -1;
